@@ -162,21 +162,21 @@ namespace ProjeTyö1
             if (dice >= 1 && dice <= 3) 
             {
                 noppa = 0; // Negatiivinen
-                Storyboard NoppaHuono = (Storyboard)TryFindResource("NoppaHuonoAnim");
+                Storyboard NoppaHuono = (Storyboard)TryFindResource("NoppaHuonoAnim"); // muuttaa lblDice taustan punaiseksi jos noppa heittää 1-3
                 NoppaHuono.Pause();
                 NoppaHuono.Begin();
             }
             else if (dice >= 4 && dice <= 7) 
             {
                 noppa = 1; // Neutraali
-                Storyboard NoppaNeutraali = (Storyboard)TryFindResource("NoppaNeutraaliAnim");
+                Storyboard NoppaNeutraali = (Storyboard)TryFindResource("NoppaNeutraaliAnim"); // muuttaa lblDice taustan keltaiseksi jos noppa heittää 4-7
                 NoppaNeutraali.Pause();
                 NoppaNeutraali.Begin();
             }
             else 
             {
                 noppa = 2; // Positiviinen
-                Storyboard NoppaHyvä = (Storyboard)TryFindResource("NoppaHyväAnim");
+                Storyboard NoppaHyvä = (Storyboard)TryFindResource("NoppaHyväAnim"); // muuttaa lblDice taustan vihreäksi jos noppa heittää 8-10
                 NoppaHyvä.Pause();
                 NoppaHyvä.Begin();
             }
@@ -250,19 +250,19 @@ namespace ProjeTyö1
             }
             if (Health >= 100)
             {
-                Storyboard HpYliSata = (Storyboard)TryFindResource("HpYliSata");
+                Storyboard HpYliSata = (Storyboard)TryFindResource("HpYliSata"); // Muuttaa lblHealthin taustan vihreäksi kun energia on 100 tai enemmän
                 HpYliSata.Pause();
                 HpYliSata.Begin();
             }
             if (Health < 100 && Health > 0)
             {
-                Storyboard HpAlleSata = (Storyboard)TryFindResource("HpAlleSata");
+                Storyboard HpAlleSata = (Storyboard)TryFindResource("HpAlleSata"); //Muuttaa lblHealthin taustan keltaiseksi kun energia on 100:n ja 0:n välillä
                 HpAlleSata.Pause();
                 HpAlleSata.Begin();
             }
             if (Health == 0 || Health < 0)
             {
-                Storyboard HpNolla = (Storyboard)TryFindResource("HpNolla"); // Animaatio
+                Storyboard HpNolla = (Storyboard)TryFindResource("HpNolla"); // Muuttaa lblHealthin taustan punaiseksi kun energia on 0 tai vähemmän
                 HpNolla.Pause();
                 HpNolla.Begin();
             }

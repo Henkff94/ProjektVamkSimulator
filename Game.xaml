@@ -38,7 +38,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
-        <Label FontWeight="Bold" Content="Events:" x:Name="lblEvents" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" Width="275" Height="26" HorizontalAlignment="Left"/>
+        <Label FontWeight="Bold" Content="" x:Name="lblEvents" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" Width="275" Height="26" HorizontalAlignment="Left"/>
         <Label FontWeight="Bold" Content="Energy:" x:Name="lblHealth" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="0">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
