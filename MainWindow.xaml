@@ -1,0 +1,28 @@
+﻿<Window x:Class="ProjeTyö1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Vamk Simulator" Height="400" Width="600" MaxHeight="400" MaxWidth="600" WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow">
+    <Grid Background="LightSteelBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="125" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="125" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="150" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" 
+              FontSize="32" FontFamily="Verdana" Content="VAMK Simulator" />
+        <Label Grid.Row="1" Grid.Column="0" Content=""/>
+        <Label Grid.Row="2" Grid.Column="1" Content=""/>
+        <Button x:Name="btnStart" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" 
+            MinWidth="160" MinHeight="40" Margin="8" FontSize="20" FontWeight="SemiBold" Content="Start" Click="btnStart_Click"  />
+        <Button x:Name="btnTutorial" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" 
+            MinWidth="160" MinHeight="40" Margin="8" FontSize="20" FontWeight="SemiBold" Content="How to play" Click="btnTutorial_Click"  />
+        <Image Grid.Row="3" Grid.Column="1" Stretch="Fill" Visibility="Visible" Source="koulu.jpg" />
+    </Grid>
+</Window>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Array>
+	<Tarina>Koulu alkaa klo 8.00, kello on 7.00 ja kuulet herätyskellon soivan. Mitä teet?</Tarina>
+	<Vaihtoehdot>
+		<Vaihtoehto1>Käännät kylkeä</Vaihtoehto1>
+		<Vaihtoehto2>Torku vielä 5 min</Vaihtoehto2>
+		<Vaihtoehto3>Nouse sängystä</Vaihtoehto3>
+	</Vaihtoehdot>
+	<Tulos>
+		<Tulos1>Näet painajaisia wpf sovelluksista ja virheilmoituksista, joiden jälkeen nouset sängystä (-50 Energy).</Tulos1>
+		<Tulos2>Nukut pommiin ja myöhästyt ensimmäiseltä tunnilta</Tulos2>
+		<Tulos3>Et saa unta ja nouset sängystä (+50 Energy)</Tulos3>
+		<Tulos4>Yrityksestä huolimatta heräät kahden tunnin jälkeen ja skippasit ensimmäiset koulutunnit (-50 Energy)</Tulos4>
+		<Tulos5>Heräät klo 7.45, ehdit tunnille miuutin tarkkuudella.</Tulos5>
+		<Tulos6>Heräät 7.05, aikaa on hyvin juoda aamukahvit.(+50 Energy)</Tulos6>
+		<Tulos7>Putoat sängystä ärtyisänä. (-50 Energy)</Tulos7>
+		<Tulos8>Nouset sängystä ärtyisänä.</Tulos8>
+		<Tulos9>Nouset sängystä virkeänä. (+50 energy)</Tulos9>
+	</Tulos>
+	<Tarina>Miten kuljet kouluun?</Tarina>
+	<Vaihtoehdot>
+		<Vaihtoehto1>Kävellen</Vaihtoehto1>
+		<Vaihtoehto2>Pyörällä</Vaihtoehto2>
+		<Vaihtoehto3>Autolla</Vaihtoehto3>
+	</Vaihtoehdot>
+	<Tulos>
+		<Tulos1>Unohdat kännykkäsi kotiin ja joudut kävelemään takaisin. (-25 Energy)</Tulos1>
+		<Tulos2>Matka sujuu ongelmitta</Tulos2>
+		<Tulos3>Ulkona on hieno sää joka pistää sinut hyvälle tuulelle. (+25 Energy)</Tulos3>
+		<Tulos4>Et katsonut sivuille suojatiellä, jäät auton alle. (Game Over)</Tulos4>
+		<Tulos5>Matka sujuu ongelmitta</Tulos5>
+		<Tulos6>Ulkona on hieno sää joka pistää sinut hyvälle tuulelle. (+25 Energy)</Tulos6>
+		<Tulos7>Et löydä hyvää parkkipaikkaa joten joudut parkkeeramaan kauemmaksi koulusta (-25 Energy)</Tulos7>
+		<Tulos8>Matka sujuu ongelmitta</Tulos8>
+		<Tulos9>Matkan aikana radiosta soi lempi kappaleesi joka pistää sinut hyvälle tuulelle (+25 Energy)</Tulos9>
+	</Tulos>
+	<Tarina>Saavut kouluun, mitä teet?</Tarina>
+	<Vaihtoehdot>
+		<Vaihtoehto1>Haet kahvia</Vaihtoehto1>
+		<Vaihtoehto2>Menet tunnille</Vaihtoehto2>
+		<Vaihtoehto3>Menet syömään</Vaihtoehto3>
+	</Vaihtoehdot>
+	<Tulos>
+		<Tulos1>Serverin kahvilan kahvi on loppu ja joudut käyttämään enemmän rahaa starbucksin automaattiin. (-50 Energy)</Tulos1>
+		<Tulos2>Haet serverin kahvilasta kupin kahvia.</Tulos2>
+		<Tulos3>Löydät kahvikupongin lattialta ja saat serveriltä ilmaisen kahvin. (+50 Energy)</Tulos3>
+		<Tulos4>Ovi on lukossa ja opettajia ei näy missään. (-25 Energy)</Tulos4>
+		<Tulos5>Menet tunnille miettimään elämän tarkoitusta.</Tulos5>
+		<Tulos6>Opettaja antaa helpot tehtävät joiden jälkeen voit lähteä tunnilta (+25 Energy)</Tulos6>
+		<Tulos7>Menet serverille, saat huonon mielen huonosta ruuasta. (-50 Energy)</Tulos7>
+		<Tulos8>Menet Matildalle jossa on ihan ok ruuat.</Tulos8>
+		<Tulos9>Menet Cotton Clubiin hyvälle leikkeelle. (+50 Energy)</Tulos9>
+	</Tulos>
+	<Tarina>Sinulla on seuraavana tietojenkäsittely koe. Menet luokkaan istumaan ja saat koepaperin eteesi. Mitä teet?</Tarina>
+	<Vaihtoehdot>
+		<Vaihtoehto1>Aloitat suorittamaan koetta parhaasi mukaan</Vaihtoehto1>
+		<Vaihtoehto2>Yrität luntata vieruskaveriltasi</Vaihtoehto2>
+		<Vaihtoehto3>Yrität luntata puhelimen avulla</Vaihtoehto3>
+	</Vaihtoehdot>
+	<Tulos>
+		<Tulos1>Koska et muistanut lukea kokeeseen, koe meni päin metsää. Sait arvosanaksi hylätyn. (Game Over.)</Tulos1>
+		<Tulos2>Muistit bash scriptien perusteet, mutta teoria ei mennyt kovinkaan hyvin. Sait arvosanaksi 3.</Tulos2>
+		<Tulos3>Yllätit itsesi ja sait täydet pisteet bash scripteistä ja teoriasta. Sait arvosanaksi 5. (+100 Energy)</Tulos3>
+		<Tulos4>Vieruskaverisi näkee aikeesi sanoo, että joudut maksamaan 10€ hänelle tai hän kertoo opettajalle. Sait arvosanaksi 3 (-50 Energy ja - 10€)</Tulos4>
+		<Tulos5>Opettaja näkee aikeesi ja antaa sinulle hylätyn arvosanan. Joudut myös uusimaan kurssin (Game Over) </Tulos5>
+		<Tulos6>Lunttaus onnistui, sait arvosanaksi 4. (+100 Energy)</Tulos6>
+		<Tulos7>Puhelimesta loppui akku. Sait kokeesta arvosanaksi 1. (-50 Energy)</Tulos7>
+		<Tulos8>Joku soitti puhelimeesi ja opettaja huomasi lunttaus aikeesi. Sait kokeesta hylätyn ja joudut uusimaan kurssin (Game Over)</Tulos8>
+		<Tulos9>Lunttaus onnistui, sait arvosanaksi 5. (+100 Energy)</Tulos9>
+	</Tulos>
+	<Tarina>Koulupäivä on päättymässä ja sinun pitäisi keksiä järkevää tekemistä viikonlopun kunniaksi.</Tarina>
+	<Vaihtoehdot>
+		<Vaihtoehto1>Pelaat Dark souls 3 peliä</Vaihtoehto1>
+		<Vaihtoehto2>Ryyppäämään</Vaihtoehto2>
+		<Vaihtoehto3>Lähdet vanhempiesi luo</Vaihtoehto3>
+	</Vaihtoehdot>
+	<Tulos>
+		<Tulos1>You died. (Game over)</Tulos1>
+		<Tulos2>You died. (Game over)</Tulos2>
+		<Tulos3>You died. (Game over)</Tulos3>
+		<Tulos4>Heräät lauantai aamuna Tukholmassa jossain sivukadulla kovassa darrassa ilman mitään muistikuvaa perjantain tapahtumista. Ilman rahaa (Game Over)</Tulos4>
+		<Tulos5>Heräät lauantai aamuna rahattomana kotonasi. (-100 Energy)</Tulos5>
+		<Tulos6>Voitit blackjack pöydästä tuhat euroa ja tarjosit kaikille baarissa oleville juomat. (Good ending)</Tulos6>
+		<Tulos7>Sinulle tuli muuta tärkeää tekemistä jonka takia et voi lähteä vanhempiesi luo. (-50 Energy)</Tulos7>
+		<Tulos8>Lähdet vanhempiesi luo. (Good ending)</Tulos8>
+		<Tulos9>Vanhempasi ilahtuivat niin paljon että maksoivat sinun matkasi (Good Ending).</Tulos9>
+	</Tulos>
+</Array>
