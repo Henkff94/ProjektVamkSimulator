@@ -1,4 +1,3 @@
-# ProjektVamkSimulator
-Text based videogame
-Ohjelmmoinnin Perusteet II Kurssin projektityö
-Tämä on lopullinen versio
+# ProjektVamkSimulator is a text based videogame. Ohjelmmoinnin Perusteet II kurssin projektityö.
+Tämä on lopullinen versio.
+
